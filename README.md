@@ -87,7 +87,7 @@ Oh I have not gotten any FAQ yet :P . You are welcomed to ask any question in ou
 
 # List of publications that ultilised *LPS+*
 
-- https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4801W/abstract
+- https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4801W/abstract (Currently I do not a "code paper" of LPS+, and I will consider submitting one soon. If you use this code, you may cite this <-- paper, where this code is for the first time. )
 - Wu et al. 2024, submitted to MNRAS
 
 # TODO
