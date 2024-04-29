@@ -1,0 +1,21 @@
+# Example Input File
+# Format: key=value, seperated by spaces
+# Available keys: m_me, a_au, e, i_deg, peri_deg, node_deg, M_deg
+# m_me: mass of the particle in earth mass
+# a_au: semi-major axis of the particle in au
+# e: eccentricity of the particle
+# i_deg: inclination of the particle in degrees
+# peri_deg: argument of pericenter of the particle in degrees
+# node_deg: longitude of the ascending node of the particle in degrees
+# M_deg: mean anomaly of the particle in degrees
+# peri, node, and M can also be the word: random, which randomize between 0 to 360 degrees.
+
+
+# 50-au-Jupiter
+m_me=317.83  a_au=50.0  e=0.04839266  i_deg=0.0  peri_deg=14.75385  node_deg=100.55615  M_deg=34.40438
+# Planet earth
+m_me=1.0  a_au=1.0  e=0.0167  i_deg=0.0  peri_deg=102.93735  node_deg=-11.26064  M_deg=100.46435
+# 3 comets (set mass=0 to greatly boost the simulation speed)
+m_me=0.0  a_au=20.0  e=0.01  i_deg=0.01  peri_deg=random  node_deg=random  M_deg=random
+m_me=0.0  a_au=25.0  e=0.01  i_deg=0.01  peri_deg=random  node_deg=random  M_deg=random
+m_me=0.0  a_au=100.0  e=0.01  i_deg=0.01  peri_deg=random  node_deg=random  M_deg=random
