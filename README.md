@@ -87,8 +87,18 @@ Oh I have not gotten any FAQ yet :P . You are welcomed to ask any question in ou
 
 # List of publications that ultilised *LPS+*
 
-- https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4801W/abstract (Currently I do not a "code paper" of LPS+, and I will consider submitting one soon. If you use this code, you may cite this <-- paper, where this code is for the first time. )
+- Wu et al. 2023  https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4801W/abstract (Currently I do not a "code paper" of LPS+, and I will consider submitting one soon. If you use this code, you may cite this <-- paper, where this code is for the first time. )
 - Wu et al. 2024, submitted to MNRAS
+
+The following papers ultilised the predecessor code LonelyPlanetS 
+- Cai et al. 2017  https://ui.adsabs.harvard.edu/abs/2017MNRAS.470.4337C
+- Cai et al. 2019  https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.4311C
+- Flammini Dotti et al. 2019  https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2280F
+- Veras et al. 2020  https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.5062V
+- Stock et al. 2020  https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1807S
+- Stock et al. 2022  https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.2460S
+- Benkendorff et al. 2024 https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.2834B
+
 
 # TODO
 
