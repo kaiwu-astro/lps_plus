@@ -50,7 +50,7 @@ In the following instructions, I assume that:
 - You have some experience with NBODY6++GPU. Perhaps you need to successfully (i) download the code, (ii) compile the code, and (iii) run a star cluster simulation at least once. (See https://github.com/nbody6ppgpu/Nbody6PPGPU-beijing)
 - You have some experience with REBOUND. Maybe at a similar level of proficiency as above. (See https://github.com/hannorein/rebound)
 
-I am sorry for the prerequisite, but simulating planetary systems in star clusters is a bit of cutting-edge science 🎩 . 
+I am sorry for the prerequisite, but simulating planetary systems in star clusters is a bit of new science 🎩 . 
 
 ## Compile NBODY6++GPU 
 
