@@ -92,6 +92,7 @@ Oh I have not gotten any FAQ yet :P . You are welcomed to ask any question in ou
 
 The following papers ultilised the predecessor code LonelyPlanetS 
 - Cai et al. 2017  https://ui.adsabs.harvard.edu/abs/2017MNRAS.470.4337C
+- Cai et al. 2018  https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.5114C
 - Cai et al. 2019  https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.4311C
 - Flammini Dotti et al. 2019  https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2280F
 - Veras et al. 2020  https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.5062V
@@ -99,6 +100,7 @@ The following papers ultilised the predecessor code LonelyPlanetS
 - Stock et al. 2022  https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.2460S
 - Benkendorff et al. 2024 https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.2834B
 
+In summary https://ui.adsabs.harvard.edu/public-libraries/AeSjM7AhTm6PYEXAr5Gbig
 
 # TODO
 
