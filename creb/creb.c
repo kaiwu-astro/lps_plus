@@ -48,6 +48,7 @@ int linen = 0;
 int numInputParticles = 0;
 inputparticle inputParticles[N_PARTICLE_MAX];
 
+void print_input_params(inputparticle *particles, int nparticle); 
 
 int is_particle_escape(const struct reb_particle *particle) {
     const int ESCAPE_DISTANCE = 10000; // AU
@@ -470,7 +471,7 @@ int add_particles_from_NB6data(struct reb_simulation *sim, const struct reb_part
     return 0;
 }
 
-void start_simulation() {
+int start_simulation() {
     clock_t starttime, endtime, simustart, simuclock = 0;
     starttime = clock();
     last_indbefore = 0;
@@ -707,6 +708,7 @@ void start_simulation() {
     // fclose(console_stderr);
     // stderr = fdopen(STDERR_FILENO, "w");
     // setvbuf(stderr, NULL, _IONBF, 0);
+    return 0;
     }
 
 void read_scale() {
@@ -717,17 +719,17 @@ void read_scale() {
 
     sprintf(fname, "%s%s", n6_result_dir, "/LPSdiag.txt");
     scalefile = fopen(fname, "r");
-    char* _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile); 
     sscanf(buf, "%s %d", junk, &nhost);
-    _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile);
     sscanf(buf, "%s %d", junk, &n_ptb);
-    _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile);
     sscanf(buf, "%s %lf", junk, &Mscale_Mdot);
-    _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile);
     sscanf(buf, "%s %lf", junk, &Rscale_pc);
-    _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile);
     sscanf(buf, "%s %lf", junk, &Vscale_kmps);
-    _result = fgets(buf, sizeof(buf), scalefile);
+    fgets(buf, sizeof(buf), scalefile);
     sscanf(buf, "%s %lf", junk, &Tscale_Myr);
     fclose(scalefile);
 
@@ -784,7 +786,7 @@ void read_time_params(int argc, char *argv[]) {
     return;
 }
 
-void open_host_ptb_file() {
+int open_host_ptb_file() {
     char hostFilePath[MAX_PATH_LENGTH] = "";
     char perturberFilePath[MAX_PATH_LENGTH] = "";
     const char *HOST_FILE_PREFIX = "/LPS_Host_";
@@ -814,7 +816,7 @@ void open_host_ptb_file() {
         perror("Failed to set buffer");
         return 1;
     }
-    return;
+    return 0;
 }
 
 void close_host_ptb_file(){
