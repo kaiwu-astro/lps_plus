@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 #define bool int
 #define True 1
